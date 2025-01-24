@@ -1,0 +1,30 @@
+{
+  "name": "email-mkt-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoaad/email-mkt-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegoaad/email-mkt-server/issues"
+  },
+  "homepage": "https://github.com/diegoaad/email-mkt-server#readme",
+  "description": "",
+  "dependencies": {
+    "@shopify/shopify-api": "^11.8.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
